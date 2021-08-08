@@ -11,8 +11,6 @@ var firebaseConfig = {
     appId: proccess.env.appId
 };
 
-console.log(firebaseConfig);
-
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const firebaseDB = firebaseApp.firestore();
 const authentication = firebaseApp.auth();
