@@ -3,12 +3,12 @@ import "firebase/auth";
 import "firebase/firestore";
 
 var firebaseConfig = {
-    apiKey: "XXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXX",
-    appId: "XXXXXXXXXXXXXXXXXXX"
+    apiKey: proccess.env.apiKey,
+    authDomain: proccess.env.authDomain,
+    projectId: proccess.env.projectId,
+    storageBucket: proccess.env.storageBucket,
+    messagingSenderId: proccess.env.messagingSenderId,
+    appId: proccess.env.appId
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
