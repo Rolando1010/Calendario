@@ -3,12 +3,12 @@ import "firebase/auth";
 import "firebase/firestore";
 
 var firebaseConfig = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    projectId: process.env.projectId,
-    storageBucket: process.env.storageBucket,
-    messagingSenderId: process.env.messagingSenderId,
-    appId: process.env.appId
+    apiKey: "XXXXXXXXXXXXXXXXX",
+    authDomain: "XXXXXXXXXXXXXXXXX",
+    projectId: "XXXXXXXXXXXXXXXXX",
+    storageBucket: "XXXXXXXXXXXXXXXXX",
+    messagingSenderId: "XXXXXXXXXXXXXXXXX",
+    appId: "XXXXXXXXXXXXXXXXX"
 };
 
 console.log("FirebaseConfig:",firebaseConfig);
