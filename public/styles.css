@@ -1,0 +1,193 @@
+body{
+    background: #636363;
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);
+    background: linear-gradient(to right, #a2ab58, #636363);
+}
+
+.menu{
+    padding: 10px;
+}
+
+.element-menu{
+    border-bottom: 1px solid transparent;
+    margin-left: 10px;
+    transition: border 1s;
+}
+
+.element-menu:hover{
+    border-color: #ffffff;
+}
+
+.container-form{
+    background-color: #212529;
+    width: 80%;
+    color: #ffffff;
+    padding: 30px 30px 10px 30px;
+    margin: 50px 0px;
+}
+
+.container-form *{
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: #a2ab58;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: #636363;
+    color: #ffffff;
+}
+
+.input{
+    padding: 15px 30px;
+}
+
+.toast-alert{
+    background-color: #ffffff;
+    margin-right: 20px;
+    z-index: 3;
+    border: 1px solid #a1a1a1;
+}
+
+.toast-alert-header{
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #a1a1a1;    
+}
+
+.toast-alert-body{
+    padding: 20px 20px 0px 20px;
+}
+
+.alert-message{
+    padding-bottom: 0;
+}
+
+.container-control-panel{
+    padding: 20px;
+}
+
+.control-panel{
+    background-color: #ffffff;
+    border: 1px solid #636363;
+}
+
+.title-control-panel{
+    padding: 10px 0px;
+    border-bottom: 1px solid #636363;
+    font-weight: bold;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mv-10{
+    margin: 10px 0px;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.btn-create-category{
+    background-color: #636363;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
+.btn-create-category:hover{
+    background-color: #a2ab58;
+    color: #ffffff;
+}
+
+.container-categories{
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.category{
+    border: 1px solid #636363;
+    cursor: pointer;
+}
+
+.category:hover{
+    background-color: #d4d4d4;
+}
+
+.category-selected{
+    background-color: #afafaf;
+}
+
+.calendar-container{
+    padding: 20px;
+}
+
+.calendar{
+    background-color: #212529;
+    width: 100%;
+    border: 15px solid #212529;
+    border-top: 0px solid #212529;
+}
+
+.month{
+    color: #ffffff;
+    padding: 0px 0px 10px 0px;
+}
+
+.week-days *{
+    color: #ffffff;
+}
+
+.day{
+    background-color: #ffffff;
+    border: 2px solid #212529;
+    padding: 5px 0px;
+}
+
+.day-disabled{
+    background-color: #afafaf;
+    color: #676767;
+}
+
+.categories-Date *{
+    display: inline-block;
+    margin: 2px;
+}
+
+.btn-delete-category{
+    color: #c01111;
+    font-size: 25px;
+}
+
+.arrow-calendar{
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.arrow-calendar *{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.d-ib{
+    display: inline-block;
+}
+
+.f-l{
+    float: left;
+}
+
+.f-r{
+    float: right;
+}
